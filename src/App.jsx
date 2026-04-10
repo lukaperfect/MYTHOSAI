@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 /* ═══════════════════════════════════════════════════════════════════════
    M Y T H O S A I   v 5 . 0   —   T H E   S I N G U L A R I T Y
@@ -2047,5 +2048,6 @@ Genera un piano narrativo in 3 fasi per guidare una storia di 8-10 scene. SOLO J
         </div>
         <Btn onClick={()=>setPanel(null)} style={{width:"100%",marginTop:12}}>Chiudi</Btn>
       </Panel>}
+      <Analytics />
     </div>);
 }
