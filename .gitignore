@@ -1,3 +1,2 @@
-package-lock.json
-mythosai-v5/package-lock.json
-**/node_modules
+node_modules
+.DS_Store
